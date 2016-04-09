@@ -4,6 +4,9 @@ const fillo = require("../lib");
 console.log(fillo(7));
 // => "07"
 
+console.log(fillo(142));
+// => "142"
+
 console.log(fillo(42, 5));
 // => "00042"
 
