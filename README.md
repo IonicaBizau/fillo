@@ -1,14 +1,18 @@
+
 # fillo [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/fillo.svg)](https://www.npmjs.com/package/fillo) [![Downloads](https://img.shields.io/npm/dt/fillo.svg)](https://www.npmjs.com/package/fillo) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Fill a value with characters to the given size.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save fillo
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 const fillo = require("fillo");
@@ -17,6 +21,9 @@ const fillo = require("fillo");
 console.log(fillo(7));
 // => "07"
 
+console.log(fillo(142));
+// => "142"
+
 console.log(fillo(42, 5));
 // => "00042"
 
@@ -24,7 +31,8 @@ console.log(fillo(42, 4, "#"));
 // => "##42"
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `fillo(what, size, ch)`
 Fill additional characters at the beginning of the string.
@@ -37,15 +45,19 @@ Fill additional characters at the beginning of the string.
 #### Return
 - **String** The input value with filled characters.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`formatoid`](https://github.com/IonicaBizau/formatoid#readme)
 
-## License
+ - [`formatoid`](https://github.com/IonicaBizau/formatoid#readme)—Tiny and fast module for formatting date objects.
+ - [`timer-app`](https://github.com/IonicaBizau/timer-app#readme)—A simple timer application.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
