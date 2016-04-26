@@ -1,6 +1,6 @@
 {
   "name": "fillo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fill a value with characters to the given size.",
   "main": "lib/index.js",
   "directories": {
@@ -24,5 +24,16 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/fillo/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/fillo#readme"
+  "homepage": "https://github.com/IonicaBizau/fillo#readme",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
