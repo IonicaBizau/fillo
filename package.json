@@ -1,6 +1,6 @@
 {
   "name": "fillo",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Fill a value with characters to the given size.",
   "main": "lib/index.js",
   "directories": {
@@ -29,6 +29,7 @@
     "bin/",
     "app/",
     "lib/",
+    "build/",
     "dist/",
     "src/",
     "resources/",
