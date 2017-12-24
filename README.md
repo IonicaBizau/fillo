@@ -10,7 +10,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save fillo
+# Using npm
+npm install --save fillo
+
+# Using yarn
+yarn add fillo
 ```
 
 
