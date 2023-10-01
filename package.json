@@ -39,5 +39,10 @@
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
+  ],
+
+  "contributors": [
+       "Gaurav Kumar Kashyap <gauravkumarkashyap74354@gmail.com>"
   ]
+
 }
