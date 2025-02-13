@@ -1,6 +1,6 @@
 {
   "name": "fillo",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Fill a value with characters to the given size.",
   "main": "lib/index.js",
   "directories": {
@@ -36,11 +36,13 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
   ],
   "contributors": [
-       "Gaurav Kumar Kashyap <gauravkumarkashyap74354@gmail.com>"
+    "Gaurav Kumar Kashyap <gauravkumarkashyap74354@gmail.com>"
   ]
 }
